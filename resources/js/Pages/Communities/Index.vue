@@ -150,7 +150,7 @@ defineProps({
                                 "
                                 >
                                 <Link
-                                    :href="route('communities.edit', community.slug)"
+                                    :href="route('communities.edit', community.id)"
                                     class="text-indigo-600 hover:text-indigo-900 mr-3"
                                     >Edit</Link
                                 >
